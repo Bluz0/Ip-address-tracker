@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#map{
+    margin-top: -10px;
+    height:438px;
+    z-index: 0;
+}
+
+.banner-background img{
+    width: 100%;
+}
+
+#title{
+    position: absolute;
+    top:31px;
+    left: 41%;
+    color:white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;   
+}
+
+input{
+    position: absolute;
+    top:98px;
+    left: 30.5%;
+    border:none;
+    border-radius: 16px;
+    width:539px;
+    height:52px;
+    font-size:18px;
+    font-family: "Rubik", sans-serif;
+    padding-left:30px;
+    outline:none;
+}
+
+#box-button{
+    display: flex;
+    position: absolute;
+    top:98px;
+    left: 66.5%;
+    background-color: black;
+    width:50px;
+    height:52px;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius : 16px;
+    border-top-right-radius : 16px;
+    cursor:pointer;
+}
+
+#infos{
+    position: absolute;
+    top:210px;
+    left:250px;
+    background-color: white;
+    z-index:1;
+    height:150px;
+    width: 70%;
+    border-radius:15px;
+}
+
+#infos label{
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color:#959595;
+    font-size: 14px;
+}
+
+.title-ip{
+    position: absolute;
+    top:30px;
+    left:35px;
+}
+
+#adress-p{
+    position: absolute;
+    top:59px;
+    left:32px;
+    font-size: 25px;
+    font-family:"Rubik", sans-serif;
+    font-weight: 500;
+}
+
+.title-loc{
+    position: absolute;
+    top:30px;
+    left:331px;
+}
+
+#loc{
+    position: absolute;
+    top:59px;
+    left:330px;
+    font-size: 25px;
+    font-family:"Rubik", sans-serif;
+    font-weight: 500;
+    width:200px;
+}
+
+.title-tmz{
+    position: absolute;
+    top:30px;
+    left:625px;
+}
+
+#timez{
+    position: absolute;
+    top:59px;
+    left:624px;
+    font-size: 25px;
+    font-family:"Rubik", sans-serif;
+    font-weight: 500;
+    width:200px;
+}
+
+.isb-tmz{
+    position: absolute;
+    top:30px;
+    left:870px;
+}
+
+#isb-p{
+    position: absolute;
+    top:59px;
+    left:868px;
+    font-size: 25px;
+    font-family:"Rubik", sans-serif;
+    font-weight: 500;
+    width:200px;
+}
+
+/* NO RESPONSIVE BECAUSE NOT TOO MUCH TOKEN ON API KEY  */
